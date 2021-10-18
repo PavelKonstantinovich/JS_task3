@@ -35,7 +35,7 @@ calcSum(arr)
 
 // Задание №2
 
-// let arr2 = [5, 4, 3, -3, -10, -1, 8, -20, 0]
+// const numberas = [5, 4, 3, -3, -10, -1, 8, -20, 0]
 // function findPositiveNumbers() {
 //  let positiveItemsArr = []
 // for (let item of arr2) {
@@ -43,7 +43,7 @@ calcSum(arr)
 // }
 // console.log(positiveItemsArr)
 // }
-// findPositiveNumbers(arr2)
+// findPositiveNumbers(numberas)
 
 // Задание №3
 
@@ -103,15 +103,15 @@ calcWord()
 // }
 // findPositiveNumbers()
 
-function findPositiveNumbers(){
-  let arr = [5, 4, 3, -3, -10, -1, 8, -20, 0]
-  let positiveItemsArr = []
-for (let item of arr3) {
-  if (item > 0) positiveItemsArr.push(item)
-}
-console.log(positiveItemsArr)
-}
-findPositiveNumbers(arr3)
+// function findPositiveNumbers(){
+//   let arr = [5, 4, 3, -3, -10, -1, 8, -20, 0]
+//   let positiveItemsArr = []
+// for (let item of arr3) {
+//   if (item > 0) positiveItemsArr.push(item)
+// }
+// console.log(positiveItemsArr)
+// }
+// findPositiveNumbers(arr3)
 
 // function findPositiveNumbers(){
 //   let arr = [5, 4, 3, -3, -10, -1, 8, -20, 0]
@@ -123,4 +123,12 @@ findPositiveNumbers(arr3)
 // }
 // findPositiveNumbers(arr3)
 
-// Задание №7 --> // Задание №3
+const numberas = [5, 4, 3, -3, -10, -1, 8, -20, 0]
+function findPositiveNumbers() {
+ let positiveItemsArr = []
+for (let item of arr2) {
+  if (item > 0) positiveItemsArr.push(item)
+}
+console.log(positiveItemsArr)
+}
+findPositiveNumbers(numberas)
